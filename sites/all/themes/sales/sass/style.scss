@@ -1,0 +1,37 @@
+// Default variables.
+@import 'default-variables';
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+/*** fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Droid Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans:400,600,700');
+/****** variables ******/
+.jb-classifier-link-wrapper + div{
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar.container, .navbar.container-fluid{
+	margin-top:0px;
+}
+body{
+	background-color:#222222;
+	color:#fff;
+}
+.btn-info{
+	background-color: #a30037;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 22px;
+width: 100%;
+border-color:#F4A33E;
+}
+.btn-info:hover{
+	border-color:#a30037;
+	background-color:#F4A33E ;
+}
